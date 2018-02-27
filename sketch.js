@@ -22,7 +22,7 @@ let randomItem = norrisJokes[Math.floor(Math.random()*norrisJokes.length)];
 
 
 function preload() {
-    loadJSON("https://api.icndb.com/jokes/", dataReceived);
+    loadJSON('https://api.icndb.com/jokes/', dataReceived);
     chuckImg = loadImage('1.png');
     chuck2Img = loadImage('2.png');
     chuck3Img = loadImage('3.png');
